@@ -8,3 +8,10 @@ function makePassword(maxLengthPass) {
     return generatedPassword;
  }
  console.log(makePassword(5));
+
+document.getElementById(button).addEventListener("click", () => {
+    let characters = alpha;
+    incNumbers.checked ? (characters += numbers) : "";
+    incSymbols.checked ? (characters += symbols) : "";
+    passwordTxt.value = generatePassword(length.value, characters);
+  });

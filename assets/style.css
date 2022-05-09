@@ -21,6 +21,22 @@ section {
     background-color: white;
 }
 
+input {
+    border: none;
+    background: transparent;
+    outline: none;
+  }
+  
+#password-output {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto 1.2rem;
+    width: 100%;
+    color: rgb(216, 216, 216);
+    padding: 5px;
+    border: dotted;
+  }
+
 
 .button {
     background-color: rgb(163, 4, 4);
