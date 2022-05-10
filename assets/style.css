@@ -13,11 +13,18 @@ section {
 }
 
 .container {
+    margin-left: 325px;
     width: 450px;
     padding: 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
 }
+
+
+h2 {
+    float: left; 
+}
+
 
 
 
@@ -26,6 +33,7 @@ section {
     border: none;
     color: white;
     padding: 15px 42px;
+    margin-top: 250px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
