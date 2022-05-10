@@ -23,9 +23,17 @@ section {
 
 h2 {
     float: left; 
+    border-bottom: solid;
+    border-color: rgb(220, 220, 220);
 }
 
-
+div {
+    width: 300px;
+    border: 5px dashed rgb(220, 220, 220);
+    padding: 100px;
+    margin: 20px;
+    font: rgb(220, 220, 220);
+}
 
 
 .button {
@@ -33,7 +41,8 @@ h2 {
     border: none;
     color: white;
     padding: 15px 42px;
-    margin-top: 250px;
+    margin-top: 150px;
+    margin-right: 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
