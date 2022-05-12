@@ -5,7 +5,7 @@ body {
 header {
     text-align: center;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 section {
@@ -15,25 +15,26 @@ section {
 .container {
     margin-left: 325px;
     width: 450px;
-    padding: 100px;
+    padding: 50px 100px 50px 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
 }
 
 
 h2 {
-    float: left; 
-    border-bottom: solid;
-    border-color: rgb(220, 220, 220);
+    float: left;
 }
 
 div {
     width: 300px;
     border: 5px dashed rgb(220, 220, 220);
-    padding: 100px;
-    margin: 20px;
+    padding: 125px 75px 125px 75px;
     font: rgb(220, 220, 220);
 }
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
 
 
 #myBtn {
@@ -41,8 +42,7 @@ div {
     border: none;
     color: white;
     padding: 15px 42px;
-    margin-top: 150px;
-    margin-right: 25px;
+    margin: 50px 25px 0px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -57,3 +57,4 @@ div {
       border: solid;
       border-color: rgb(163, 4, 4);
   }
+
