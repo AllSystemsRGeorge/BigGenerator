@@ -36,7 +36,7 @@ div {
 }
 
 
-.button {
+#myBtn {
     background-color: rgb(163, 4, 4);
     border: none;
     color: white;
@@ -51,7 +51,7 @@ div {
     transition-duration: 0.5s;
   }
 
-  .button:hover {
+  #myBtn:hover {
       background-color: white;
       color: rgb(163, 4, 4);
       border: solid;
